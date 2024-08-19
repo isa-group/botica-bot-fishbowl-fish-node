@@ -1,5 +1,5 @@
-import { botica } from "botica-lib-node";
-import logger from "./logger";
+import botica from "botica-lib-node";
+import logger from "./logger.js";
 import { randomInt } from "node:crypto";
 
 const MAX_INDEX = 9;

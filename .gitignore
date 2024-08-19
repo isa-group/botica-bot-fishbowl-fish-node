@@ -1,5 +1,12 @@
+# DS_Store Files
+**/.DS_Store
+
+# IDEA Files
 .idea/
 *.iml
+
+# VSCode Settings
+.vscode/
 
 dist/
 node_modules/
