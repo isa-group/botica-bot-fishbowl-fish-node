@@ -1,1 +1,1 @@
-npm run build && docker build -t fishbowl_fish_node .
+npm run build && docker build -t botica-bot-fishbowl-fish-node .
