@@ -17,11 +17,15 @@ bot.proactive(async () => {
   y += nextMovement(y);
   logger.info(`Moved! (${previousX},${previousY}) -> (${x},${y})`);
 
-  await bot.publishOrder({
-    silhouette,
-    x,
-    y,
-  });
+  await bot.publishOrder(
+    {
+      silhouette,
+      x,
+      y,
+    },
+    "fishbowl_manager",
+    "register_movement",
+  );
 });
 
 await bot.start();
