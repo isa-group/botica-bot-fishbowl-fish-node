@@ -16,7 +16,7 @@
   "author": "Alberto Mimbrero",
   "license": "MIT",
   "dependencies": {
-    "botica-lib-node": "~0.4.0",
+    "botica-lib-node": "^0.6.0",
     "winston": "^3.13.0"
   },
   "devDependencies": {
